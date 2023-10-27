@@ -1,151 +1,93 @@
 ```mermaid
 graph LR
-    title Меню
-    
     subgraph Electrical
-        Bare Wires
-        Building Wires
-        Conduit & Conduit Accessories
-        Electrical Boxes and Covers
-        Enclosures, Cabinets and Racks
-        Junction Boxes
-        Strut - Raceways & Power Poles
-        Wire - Cord & Cable
-    
+        Boxes - Bodies & Spacers --> Electrical
+        Junction Boxes --> Electrical
+        Conduit & Conduit Accessories --> Electrical
+        Strut - Raceways & Power Poles --> Electrical
+        Wire - Cord & Cable --> Electrical
+        Bare Wires --> Electrical
+        Building Wires --> Electrical
     subgraph Alarms, Security and Signaling
-        Facility Security
-    
+        Facility Security --> Alarms, Security and Signaling
     subgraph Audio and Video
-        Audio and Video Adapters
-        Audio and Video Connectors
-        Audio Video Jacks and Insert Modules
-        Audio Video Wallplates
-    
+        Audio and Video Adapters --> Audio and Video
+        Audio and Video Connectors --> Audio and Video
+        Audio Video Jacks and Insert Modules --> Audio and Video
+        Audio Video Wallplates --> Audio and Video
     subgraph Batteries and Accessories
-        Battery Accessories
-    
+        Battery Accessories --> Batteries and Accessories
     subgraph Cable Trays and Struts
-        Cable Tray Accessories
-        Strut Channels and Accessories
-        Threaded Rods and Accessories
-    
+        Strut Channels and Accessories --> Cable Trays and Struts
+        Cable Tray Accessories --> Cable Trays and Struts
+        Threaded Rods and Accessories --> Cable Trays and Struts
     subgraph Chemicals, Lubricants and Paints
-        Adhesive Dispensers and Applicators
-        Adhesives and Sealants
-        Insecticides and Pest Control
-        Lubricants
-    
+        Adhesive Dispensers and Applicators --> Chemicals, Lubricants and Paints
+        Adhesives and Sealants --> Chemicals, Lubricants and Paints
+        Insecticides and Pest Control --> Chemicals, Lubricants and Paints
+        Lubricants --> Chemicals, Lubricants and Paints
     subgraph Conduit and Conduit Fittings
-        Conduit Bodies
-        Conduit Fittings
-        Explosion-Proof Conduit Fittings
-        Liquidtight Flexible Conduit Fittings
-    
+        Conduit Bodies --> Conduit and Conduit Fittings
+        Conduit Fittings --> Conduit and Conduit Fittings
+        Explosion-Proof Conduit Fittings --> Conduit and Conduit Fittings
+        Liquidtight Flexible Conduit Fittings --> Conduit and Conduit Fittings
     subgraph DataComm/TeleComm
-        Coaxial Connectors and Plugs
-        Copper Connectors and Plugs
-        Copper and Fiber Modular Inserts
-        Modular Outlets and Faceplates
-    
+        Coaxial Connectors and Plugs --> DataComm/TeleComm
+        Copper Connectors and Plugs --> DataComm/TeleComm
+        Copper and Fiber Modular Inserts --> DataComm/TeleComm
+        Modular Outlets and Faceplates --> DataComm/TeleComm
     subgraph Distribution Equipment and Accessories
-        Fused Overcurrent Protection Modules
-        Metering Equipment Accessories
-        Metering Equipment
-        Panelboards and Accessories
-    
+        Fused Overcurrent Protection Modules --> Distribution Equipment and Accessories
+        Metering Equipment Accessories --> Distribution Equipment and Accessories
+        Metering Equipment --> Distribution Equipment and Accessories
+        Panelboards and Accessories --> Distribution Equipment and Accessories
     subgraph Electric Utility and Outside Plant Product
-        Utility Service Entrance Fittings
-    
+        Utility Service Entrance Fittings --> Electric Utility and Outside Plant Product
+    subgraph Electrical Boxes and Covers
+        Concrete Boxes --> Electrical Boxes and Covers
+        Electrical Box Hardware and Accessories --> Electrical Boxes and Covers
+        FS and FD Boxes --> Electrical Boxes and Covers
+        Floor Service Outlet Boxes --> Electrical Boxes and Covers
+    subgraph Enclosures, Cabinets and Racks
+        Enclosure Accessories --> Enclosures, Cabinets and Racks
+        Enclosures --> Enclosures, Cabinets and Racks
+    subgraph Fasteners and Hardware
+        Anchors --> Fasteners and Hardware
+        Beam Clamps and Hangers --> Fasteners and Hardware
+        Bolts --> Fasteners and Hardware
+        Ceiling Clamps and Hangers --> Fasteners and Hardware
     subgraph Fittings and Connectors
-        Armored and Metal Clad Cable Fittings
-        Cable Gland Accessories
-        Flexible Cord and Cable Fittings
-        Non-Metallic Sheathed Cable Fittings
-    
+        Armored and Metal Clad Cable Fittings --> Fittings and Connectors
+        Cable Gland Accessories --> Fittings and Connectors
+        Flexible Cord and Cable Fittings --> Fittings and Connectors
+        Non-Metallic Sheathed Cable Fittings --> Fittings and Connectors
     subgraph Fuses, Blocks and Holders
-        Fuse Holders and Accessories
-        Fuse Reducers
-        Fuses Electrical UL Class Standard
-        Special Purpose Fuses
-    
+        Fuse Holders and Accessories --> Fuses, Blocks and Holders
+        Fuse Reducers --> Fuses, Blocks and Holders
+        Fuses Electrical UL Class Standard --> Fuses, Blocks and Holders
+        Special Purpose Fuses --> Fuses, Blocks and Holders
     subgraph Grounding and Bonding
-        Busbars and Grounding Strips
-        Ground Compression Connectors
-        Ground Mechanical Connectors
-        Ground Rods and Ground Plates
-    
+        Busbars and Grounding Strips --> Grounding and Bonding
+        Ground Compression Connectors --> Grounding and Bonding
+        Ground Mechanical Connectors --> Grounding and Bonding
+        Ground Rods and Ground Plates --> Grounding and Bonding
     subgraph Heating, Fans, Ventilation, Vacuum
-        HVAC Supplies and Accessories
-        Indoor Air Quality
-        Vacuums
-    
-    subglob Hoses, Tubing and Fittings
-        Pipe Fittings
-        Pipe Flanges
-    
+        HVAC Supplies and Accessories --> Heating, Fans, Ventilation, Vacuum
+        Indoor Air Quality --> Heating, Fans, Ventilation, Vacuum
+        Vacuums --> Heating, Fans, Ventilation, Vacuum
+    subgraph Hoses, Tubing and Fittings
+        Pipe Fittings --> Hoses, Tubing and Fittings
+        Pipe Flanges --> Hoses, Tubing and Fittings
     subgraph Industrial Control
-        Timers
-    
+        Timers --> Industrial Control
     subgraph Janitorial and Facility Maintenance
-        Rags and Wipes
-    
+        Rags and Wipes --> Janitorial and Facility Maintenance
     subgraph Labels, Signs and Printers
-        Signs, Tags, Labels and Markers
-        Wire and Component Markers
-    
+        Signs, Tags, Labels and Markers --> Labels, Signs and Printers
+        Wire and Component Markers --> Labels, Signs and Printers
     subgraph Lamps and Lightbulbs
-        Fluorescent Lamps
-        Halogen Lamps
-        High Intensity Discharge
-        Incandescent Lamps
-    
-    subgraph Lighting Controls and Ballasts
-        Ballasts and Drivers
-        Dimmers
-        Lighting Controls and Accessories
-        Occupancy and Vacancy Sensors
-    
-    subgraph Lighting Fixtures
-        Emergency Lighting and Exit Signs
-        Indoor Lighting
-        Landscape Lighting
-        Lighting Accessories
-    
-    subgraph Material Handling, Storage and Rigging
-        Dollies and Movers
-        Straps and Tie Downs
-    
-    subgraph Portable Lighting and Flashlights
-        Flashlights
-        Portable and Temporary
-    
-    subgraph Wiring Devices
-        AFCI Devices
-        Combination Devices
-        GFCI Devices
-        Locking Devices
-    
-    Electrical --> Alarms, Security and Signaling
-    Electrical --> Audio and Video
-    Electrical --> Batteries and Accessories
-    Electrical --> Cable Trays and Struts
-    Electrical --> Chemicals, Lubricants and Paints
-    Electrical --> Conduit and Conduit Fittings
-    Electrical --> DataComm/TeleComm
-    Electrical --> Distribution Equipment and Accessories
-    Electrical --> Electric Utility and Outside Plant Product
-    Electrical --> Fittings and Connectors
-    Electrical --> Fuses, Blocks and Holders
-    Electrical --> Grounding and Bonding
-    Electrical --> Heating, Fans, Ventilation, Vacuum
-    Electrical --> Hoses, Tubing and Fittings
-    Electrical --> Industrial Control
-    Electrical --> Janitorial and Facility Maintenance
-    Electrical --> Labels, Signs and Printers
-    Electrical --> Lamps and Lightbulbs
-    Electrical --> Lighting Controls and Ballasts
-    Electrical --> Lighting Fixtures
-    Electrical --> Material Handling, Storage and Rigging
-    Electrical --> Portable Lighting and Flashlights
+        Fluorescent Lamps --> Lamps and Lightbulbs
+        Halogen Lamps --> Lamps
+
  
 ```
