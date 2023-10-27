@@ -1,5 +1,46 @@
 ```mermaid
 graph TD
+  A[Electrical]
+  B[Wire - Cord & Cable]
+  C[Alarms, Security and Signaling]
+  D[Audio and Video]
+  E[Batteries and Accessories]
+  F[Cable Trays and Struts]
+  G[Chemicals, Lubricants and Paints]
+  H[Conduit and Conduit Fittings]
+  I[DataComm/TeleComm]
+  J[Distribution Equipment and Accessories]
+  K[Electric Utility and Outside Plant Product]
+  L[Electrical Boxes and Covers]
+  M[Enclosures, Cabinets and Racks]
+  N[Fasteners and Hardware]
+  O[Fittings and Connectors]
+  P[Fuses, Blocks and Holders]
+  Q[Grounding and Bonding]
+  R[Heating, Fans, Ventilation, Vacuum]
+  S[Hoses, Tubing and Fittings]
+  T[Industrial Control]
+  U[Janitorial and Facility Maintenance]
+  V[Labels, Signs and Printers]
+  W[Lamps and Lightbulbs]
+  X[Lighting Controls and Ballasts]
+  Y[Lighting Fixtures]
+  Z[Material Handling, Storage and Rigging]
+  AA[Portable Lighting and Flashlights]
+  BB[Raceways, Wireways and Ducts]
+  CC[Safety Products and Equipment]
+  DD[Tapes and Insulating Products]
+  EE[Testing and Measuring]
+  FF[Tools]
+  GG[Transformers]
+  HH[UPS and Power Conditioning]
+  II[Wire and Cable Management]
+  JJ[Wire, Cord and Cable]
+  KK[Wiring Connectors]
+  LL[Wiring Devices]
+```
+```mermaid
+graph TD
   subgraph Electrical
     a[Boxes - Bodies & Spacers]
     b[Junction Boxes]
@@ -356,7 +397,4 @@ graph TD
   dp --> dt
   dp --> du
   dp --> dv
-
-
- 
 ```
