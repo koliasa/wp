@@ -1,3 +1,60 @@
+```dot
+digraph G {
+  rankdir=LR;
+  node [shape=box, style=rounded];
+  
+  subgraph cluster_0 {
+    label = "Menu";
+    bgcolor=lightgray;
+    
+    node [shape=box, style=rounded, color=black, fontcolor=black];
+    
+    Electrical [label="Electrical", tooltip="Electrical Products"];
+    Wire [label="Wire - Cord & Cable", tooltip="Wire, Cord & Cable Products"];
+    Alarms [label="Alarms, Security and Signaling", tooltip="Alarms, Security and Signaling Products"];
+    Audio [label="Audio and Video", tooltip="Audio and Video Products"];
+    Batteries [label="Batteries and Accessories", tooltip="Batteries and Accessories"];
+    Cable [label="Cable Trays and Struts", tooltip="Cable Trays and Struts Products"];
+    Chemicals [label="Chemicals, Lubricants and Paints", tooltip="Chemicals, Lubricants and Paints Products"];
+    Conduit [label="Conduit and Conduit Fittings", tooltip="Conduit and Conduit Fittings Products"];
+    DataComm [label="DataComm/TeleComm", tooltip="DataComm/TeleComm Products"];
+    Distribution [label="Distribution Equipment and Accessories", tooltip="Distribution Equipment and Accessories"];
+    Electric [label="Electric Utility and Outside Plant Product", tooltip="Electric Utility and Outside Plant Products"];
+    ElectricalBoxes [label="Electrical Boxes and Covers", tooltip="Electrical Boxes and Covers Products"];
+    Enclosures [label="Enclosures, Cabinets and Racks", tooltip="Enclosures, Cabinets and Racks Products"];
+    Fasteners [label="Fasteners and Hardware", tooltip="Fasteners and Hardware Products"];
+    Fittings [label="Fittings and Connectors", tooltip="Fittings and Connectors Products"];
+    Fuses [label="Fuses, Blocks and Holders", tooltip="Fuses, Blocks and Holders Products"];
+    Grounding [label="Grounding and Bonding", tooltip="Grounding and Bonding Products"];
+    Heating [label="Heating, Fans, Ventilation, Vacuum", tooltip="Heating, Fans, Ventilation, Vacuum Products"];
+    Hoses [label="Hoses, Tubing and Fittings", tooltip="Hoses, Tubing and Fittings Products"];
+    Industrial [label="Industrial Control", tooltip="Industrial Control Products"];
+    Janitorial [label="Janitorial and Facility Maintenance", tooltip="Janitorial and Facility Maintenance Products"];
+    Labels [label="Labels, Signs and Printers", tooltip="Labels, Signs and Printers Products"];
+    Lamps [label="Lamps and Lightbulbs", tooltip="Lamps and Lightbulbs Products"];
+    Lighting [label="Lighting Controls and Ballasts", tooltip="Lighting Controls and Ballasts Products"];
+    LightingFixtures [label="Lighting Fixtures", tooltip="Lighting Fixtures Products"];
+    MaterialHandling [label="Material Handling, Storage and Rigging", tooltip="Material Handling, Storage and Rigging Products"];
+    PortableLighting [label="Portable Lighting and Flashlights", tooltip="Portable Lighting and Flashlights Products"];
+    Raceways [label="Raceways, Wireways and Ducts", tooltip="Raceways, Wireways and Ducts Products"];
+    Safety [label="Safety Products and Equipment", tooltip="Safety Products and Equipment"];
+    Tapes [label="Tapes and Insulating Products", tooltip="Tapes and Insulating Products"];
+    Testing [label="Testing and Measuring", tooltip="Testing and Measuring Products"];
+    Tools [label="Tools", tooltip="Tools and Accessories"];
+    Transformers [label="Transformers", tooltip="Transformers"];
+    UPS [label="UPS and Power Conditioning", tooltip="UPS and Power Conditioning Products"];
+    WireCable [label="Wire and Cable Management", tooltip="Wire and Cable Management Products"];
+    WireCord [label="Wire, Cord and Cable", tooltip="Wire, Cord and Cable Products"];
+    Wiring [label="Wiring Connectors", tooltip="Wiring Connectors and Accessories"];
+    WiringDevices [label="Wiring Devices", tooltip="Wiring Devices and Accessories"];
+    
+    Electrical -> {Wire Alarms Audio Batteries Cable Chemicals Conduit DataComm Distribution Electric ElectricalBoxes Enclosures Fasteners Fittings Fuses Grounding Heating Hoses Industrial Janitorial Labels Lamps Lighting LightingFixtures MaterialHandling PortableLighting Raceways Safety Tapes Testing Tools Transformers UPS WireCable WireCord Wiring WiringDevices}
+  }
+}
+
+```
+
+
 ```plantuml
 @startuml
 !define MenuItems {
