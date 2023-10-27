@@ -1,3 +1,4 @@
+```PlantUML
 @startuml
 !define MenuItems {
   Electrical
@@ -79,7 +80,7 @@
 |->MenuItems[37]
 |->MenuItems[38]
 @enduml
-
+```
 
 ```text
 Electrical
