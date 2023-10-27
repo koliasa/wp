@@ -1,4 +1,4 @@
-```PlantUML
+```
 @startuml
 !define MenuItems {
   Electrical
