@@ -1,4 +1,4 @@
-    ```text
+```text
     Electrical
       │
       ├── Boxes - Bodies & Spacers
