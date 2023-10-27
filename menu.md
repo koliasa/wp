@@ -1,46 +1,98 @@
-```text
-  +------------------------------------+
-  |              Menu                  |
-  +------------------------------------+
-  |
-  |  - Electrical
-  |    - Wire - Cord & Cable
-  |    - Alarms, Security and Signaling
-  |    - Audio and Video
-  |    - Batteries and Accessories
-  |    - Cable Trays and Struts
-  |    - Chemicals, Lubricants and Paints
-  |    - Conduit and Conduit Fittings
-  |    - DataComm/TeleComm
-  |    - Distribution Equipment and Accessories
-  |    - Electric Utility and Outside Plant Product
-  |    - Electrical Boxes and Covers
-  |    - Enclosures, Cabinets and Racks
-  |    - Fasteners and Hardware
-  |    - Fittings and Connectors
-  |    - Fuses, Blocks and Holders
-  |    - Grounding and Bonding
-  |    - Heating, Fans, Ventilation, Vacuum
-  |    - Hoses, Tubing and Fittings
-  |    - Industrial Control
-  |    - Janitorial and Facility Maintenance
-  |    - Labels, Signs and Printers
-  |    - Lamps and Lightbulbs
-  |    - Lighting Controls and Ballasts
-  |    - Lighting Fixtures
-  |    - Material Handling, Storage and Rigging
-  |    - Portable Lighting and Flashlights
-  |    - Raceways, Wireways and Ducts
-  |    - Safety Products and Equipment
-  |    - Tapes and Insulating Products
-  |    - Testing and Measuring
-  |    - Tools
-  |    - Transformers
-  |    - UPS and Power Conditioning
-  |    - Wire and Cable Management
-  |    - Wire, Cord and Cable
-  |    - Wiring Connectors
-  |    - Wiring Devices
-  |
-  +------------------------------------+
-```
+*** 1: Electrical
+
+Subdivision 1: Electrical Supplies
+Cables
+Boxes
+Outlets
+Switches
+Panels
+Transformers
+Wiring Devices
+Tools
+Hardware
+Subdivision 2: Electrical Hardware
+Outlet Boxes
+Switch Boxes
+Cable Raceways
+Ductwork
+Electrical Connectors
+Electrical Fasteners
+Electrical Hardware Kits
+Subdivision 3: Electrical Tools
+Screwdrivers
+Wire Strippers
+Hammers
+Pliers
+Drills
+Saws
+Leveling Tools
+Safety Equipment
+Subdivision 4: Electrical Transformers
+Step-Up Transformers
+Step-Down Transformers
+Isolation Transformers
+Power Transformers
+Autotransformers
+Subdivision 5: Electrical Wiring Devices
+Switches
+Outlets
+Dimmers
+Receptacles
+Fuses
+Circuit Breakers
+Ground Fault Circuit Interrupters
+Electrical Connectors
+
+*** Розділ 2: High-Voltage Electrical
+
+Subdivision 1: High-Voltage Cables
+AC Cables
+DC Cables
+Control Cables
+Instrument Cables
+Shielded Cables
+Armored Cables
+Conductor Cables
+Insulator Cables
+  Subdivision 2: High-Voltage Boxes
+Switch Boxes
+Outlet Boxes
+Cable Junction Boxes
+Disconnect Boxes
+Meter Boxes
+Transformer Boxes
+Overhead Boxes
+Underground Boxes
+  Subdivision 3: High-Voltage Transformers
+Power Transformers
+Distribution Transformers
+Motor Control Transformers
+Instrument Transformers
+Specialty Transformers
+  Subdivision 4: High-Voltage Wiring Devices
+Switches
+Outlets
+Disconnectors
+Circuit Breakers
+Ground Fault Circuit Interrupters
+Protective Relays
+Control Circuitry
+Instrumentation
+*** Розділ 3: Lighting Systems
+
+  Subdivision 1: Indoor Lighting
+Ceiling Lights
+Wall Lights
+Floor Lights
+Table Lights
+Accent Lights
+Outdoor Lighting
+Landscape Lighting
+Security Lighting
+
+  Subdivision 2: Lighting Controls
+Dimmers
+Timers
+Motion Sensors
+Solar Controls
+Smart Lighting Controls
