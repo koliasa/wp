@@ -1,3 +1,86 @@
+@startuml
+!define MenuItems {
+  Electrical
+  Wire - Cord & Cable
+  Alarms, Security and Signaling
+  Audio and Video
+  Batteries and Accessories
+  Cable Trays and Struts
+  Chemicals, Lubricants and Paints
+  Conduit and Conduit Fittings
+  DataComm/TeleComm
+  Distribution Equipment and Accessories
+  Electric Utility and Outside Plant Product
+  Electrical Boxes and Covers
+  Enclosures, Cabinets and Racks
+  Fasteners and Hardware
+  Fittings and Connectors
+  Fuses, Blocks and Holders
+  Grounding and Bonding
+  Heating, Fans, Ventilation, Vacuum
+  Hoses, Tubing and Fittings
+  Industrial Control
+  Janitorial and Facility Maintenance
+  Labels, Signs and Printers
+  Lamps and Lightbulbs
+  Lighting Controls and Ballasts
+  Lighting Fixtures
+  Material Handling, Storage and Rigging
+  Portable Lighting and Flashlights
+  Raceways, Wireways and Ducts
+  Safety Products and Equipment
+  Tapes and Insulating Products
+  Testing and Measuring
+  Tools
+  Transformers
+  UPS and Power Conditioning
+  Wire and Cable Management
+  Wire, Cord and Cable
+  Wiring Connectors
+  Wiring Devices
+}
+
+||MenuItems[1]
+|->MenuItems[2]
+|->MenuItems[3]
+|->MenuItems[4]
+|->MenuItems[5]
+|->MenuItems[6]
+|->MenuItems[7]
+|->MenuItems[8]
+|->MenuItems[9]
+|->MenuItems[10]
+|->MenuItems[11]
+|->MenuItems[12]
+|->MenuItems[13]
+|->MenuItems[14]
+|->MenuItems[15]
+|->MenuItems[16]
+|->MenuItems[17]
+|->MenuItems[18]
+|->MenuItems[19]
+|->MenuItems[20]
+|->MenuItems[21]
+|->MenuItems[22]
+|->MenuItems[23]
+|->MenuItems[24]
+|->MenuItems[25]
+|->MenuItems[26]
+|->MenuItems[27]
+|->MenuItems[28]
+|->MenuItems[29]
+|->MenuItems[30]
+|->MenuItems[31]
+|->MenuItems[32]
+|->MenuItems[33]
+|->MenuItems[34]
+|->MenuItems[35]
+|->MenuItems[36]
+|->MenuItems[37]
+|->MenuItems[38]
+@enduml
+
+
 ```text
 Electrical
 Wire - Cord & Cable
